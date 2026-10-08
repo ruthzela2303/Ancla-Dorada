@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Ancla Dorada - Cevichería</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="logo">⚓ El <span>Ancla Dorada</span></div>
+<div style="display:flex;gap:10px;align-items:center">
+<button class="btn-mode" onclick="toggleMode()">🌙</button>
+<button class="btn-cart" onclick="openCart()">🛒 Carrito <span id="cart-count">0</span></button>
+</div>
+</header>
+
+<div class="hero">
+<h1>Sabor 100% Peruano</h1>
+<p>Del mar a tu mesa, frescura garantizada en Zamácola</p>
+<span class="badge">Demo portfolio - Ruth Laucata</span>
+</div>
+
+<section class="menu">
+<h2>Nuestra Carta Marina</h2>
+<p class="sub">Platos preparados al momento</p>
+<div class="grid" id="menu-grid"></div>
+</section>
+
+<footer>
+<div class="footer-grid">
+<div><h4>⚓ El Ancla Dorada</h4><p>Cevichería tradicional desde 2019. El mejor sabor marino de Cerro Colorado.</p></div>
+<div><h4>Contacto</h4><p>📍 Zamácola, Arequipa<br>📞 954 386 577<br>🕒 Lun - Dom 11am - 4pm</p></div>
+<div><h4>Síguenos</h4><p>Instagram: @ancla.dorada<br>Facebook: El Ancla Dorada<br>Delivery: PedidosYa & Rappi</p></div>
+</div>
+<div class="copy">© 2026 El Ancla Dorada | Diseñado por Ruth Laucata para portfolio | Hecho con ❤️ en Arequipa</div>
+</footer>
+
+<div class="overlay" id="overlay" onclick="closeCart()"></div>
+<div class="cart-modal" id="cartModal">
+<div class="cart-header"><h3>Tu Pedido</h3><button class="close-cart" onclick="closeCart()">✕</button></div>
+<div class="cart-items" id="cartItems"><p class="empty">Carrito vacío</p></div>
+<div class="total">Total: S/ <span id="total">0.00</span></div>
+<button class="continue" onclick="closeCart()">← Seguir pidiendo</button>
+<button class="checkout" onclick="sendWhatsApp()">📲 Pedir por WhatsApp</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
