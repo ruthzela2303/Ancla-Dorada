@@ -1,7 +1,7 @@
 const platos = [
 {id:1,nombre:"Ceviche Mixto Clásico",precio:35,desc:"Pescado, camarón, pulpo, leche de tigre y camote",img:"img/ceviche.jpg"},
 {id:2,nombre:"Arroz con Mariscos",precio:32,desc:"Arroz cremoso con conchas, langostinos y calamar",img:"img/arroz.jpg"},
-{id:3,nombre:"Chicharrón de Pescado",precio:28,desc:"Pescado crocante con yuca frita y salsa tártara",img:"img/chicharron.jpg."},
+{id:3,nombre:"Chicharrón de Pescado",precio:28,desc:"Pescado crocante con yuca frita y salsa tártara",img:"img/chicharron.jpg"},
 {id:4,nombre:"Leche de Tigre Power",precio:18,desc:"Concentrado afrodisiaco, pescado, limón y ají limo",img:"img/leche.jpg"},
 {id:5,nombre:"Jalea Mixta Dorada",precio:40,desc:"Pesca del día frita, chicharrón de mariscos y criolla",img:"img/jalea.jpg"},
 {id:6,nombre:"Sudado de Pescado",precio:30,desc:"Pescado en caldo concentrado con tomate y culantro",img:"img/sudado.jpg"}
